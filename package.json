@@ -1,0 +1,146 @@
+{
+    "author": "Plausible Nonsense",
+    "dependencies": {},
+    "keywords": [],
+    "name": "plausibly-clean",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Plausibly Clean",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "MIN",
+            "MAX",
+            "ICON",
+            "COLOR_BG",
+            "COLOR_TIME",
+            "COLOR_TEMP",
+            "COLOR_DAY",
+            "COLOR_DATE",
+            "COLOR_AMPM",
+            "COLOR_WEATHER",
+            "COLOR_BATTERY",
+            "GET_LOCATION",
+            "NEXT_TEMP",
+            "COLOR_NEXT_TEMP"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9:. ]",
+                    "file": "fonts/font.ttf",
+                    "name": "FONT_TIME_42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[A-Z\u00b00-9]",
+                    "file": "fonts/font.ttf",
+                    "name": "FONT_TIME_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-zA-Z0-9\\.'\"\\/\\s\\-\\~\\,]",
+                    "file": "fonts/font.ttf",
+                    "name": "FONT_TIME_15",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/fog.png",
+                    "name": "IMG_FOG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wind.png",
+                    "name": "IMG_WIND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sleet.png",
+                    "name": "IMG_SLEET",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snow.png",
+                    "name": "IMG_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain.png",
+                    "name": "IMG_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloudy.png",
+                    "name": "IMG_CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partly-cloudy-night.png",
+                    "name": "IMG_PARTLY_CLOUDY_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partly-cloudy-day.png",
+                    "name": "IMG_PARTLY_CLOUDY_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/unknown.png",
+                    "name": "IMG_UNKNOWN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear-night.png",
+                    "name": "IMG_CLEAR_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear-day.png",
+                    "name": "IMG_CLEAR_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMG_PLUGGED_IN",
+                    "name": "IMG_PLUGGED_IN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMG_CHARGING",
+                    "name": "IMG_CHARGING",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "29cc4c58-a7c7-48a2-ab09-96208ef0fbad",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.2.0"
+}
